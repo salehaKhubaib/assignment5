@@ -9,7 +9,7 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 
-// Connect to MongoDB
+
 connectDB();
 
 // Create a new item
